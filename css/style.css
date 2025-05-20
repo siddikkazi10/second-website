@@ -4,9 +4,10 @@
 }
 nav{
     display: flex;
-    background-color:rgb(24,29,56);
+    background-color:rgb(3,31,66);
     justify-content: space-between;
     padding: 13px;
+    border-bottom: 4px solid #401E63;
     
 }
 .logo h2{
@@ -38,4 +39,37 @@ ul li a:hover{
     border-radius: 10px;
     transition: 0.5s;
     
+}
+
+/* hero area start */
+.searchbox-parent{
+    background-image: url('image/background\ img.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+}
+.searchbox-parent{
+    display: flex;
+    justify-content: center;
+    
+}
+.searchbox-parent i{
+    color: aliceblue;
+    background-color: red;
+    font-size: 26px;
+    padding: 5px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.searchbox-parent input{
+    width: 500px;
+    height: 37px;
+    border-radius: 4px;
+    margin-right: 4px;
+    font-size: 22px;
+    padding-left: 14px;
 }

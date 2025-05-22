@@ -170,3 +170,52 @@ main{
     background-color: #059e65;
     color: white;
 }
+
+/* footer container start */
+footer{
+    background-color: #6c107b;
+    color: white;
+    padding: 65px 0;
+}
+.footer-container{
+    width: 900PX;
+    
+   
+}
+.footer-parent{
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: space-between;
+    margin: 0 auto;
+    margin-left: 100px;
+    grid-gap: 44px;
+}
+.footer-first p{
+    margin: 20px 0;
+}
+.lorem{
+    font-size: 15px;
+}
+.footer-second p{
+    margin: 17px 0;
+}
+.footer-second{
+    margin-left: 82px;
+}
+.footer-third p{
+    margin: 20px 0;
+}
+.footer-third{
+    margin-left: 42px;
+}
+.footer-third div i{
+    margin: 0 8px;
+    background-color: #059e65;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+.copy{
+    font-size: 15px;
+}

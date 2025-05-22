@@ -8,6 +8,8 @@ nav{
     justify-content: space-between;
     padding: 13px;
     border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0;
     
 }
 .logo h2{

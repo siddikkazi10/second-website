@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    background-color:rgb(3,31,66);
+    justify-content: space-between;
+    padding: 13px;
+    border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0;
+    
+}
+.logo h2{
+   color: white;
+   margin-left: 26px;
+}
+.logo span{
+    color: red;
+    font-size: larger;
+}
+ul{
+  display: flex;
+ 
+}
+ul li{
+   list-style: none;
+}
+ul li a{
+   text-decoration: none;
+   color: aliceblue;
+   padding: 0 16px;
+   font-size: 20px;
+   margin-right: 22px;
+}
+ul li a:hover{
+    background-color: rgb(6, 6, 173);
+    color: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+/* artical area start */
+article{
+    margin: 70px;
+   
+}
+
+.title{
+    text-align: center;
+    margin: 30px 0;
+    color: rgb(13, 117, 13);
+}
+.title span{
+    color: red;
+}
+.about-container{
+   width: 1000px;
+   margin: 0 auto;
+  
+}
+.singlediv-parent{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+    
+}
+
+
+.single-div img{
+   width: 100%;
+   height: 100%;
+}
+.single-div{
+ 
+     width: 280px;
+    height: 250px;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding-bottom: 200px;
+}
+.catagory-title{
+    color: red;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.single-div h2{
+    padding-left: 11px;
+    margin: 6px 0;
+}
+.single-div p{
+    font-size: 13px;
+    padding: 0 11px;
+    margin: 15px 0;
+
+}
+.single-div a{
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+/* footer container start */
+footer{
+    background-color: #6c107b;
+    color: white;
+    padding: 65px 0;
+}
+.footer-container{
+    width: 900PX;
+    
+   
+}
+.footer-parent{
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: space-between;
+    margin: 0 auto;
+    margin-left: 100px;
+    grid-gap: 44px;
+}
+.footer-first p{
+    margin: 20px 0;
+}
+.lorem{
+    font-size: 15px;
+}
+.footer-second p{
+    margin: 17px 0;
+}
+.footer-second{
+    margin-left: 82px;
+}
+.footer-third p{
+    margin: 20px 0;
+}
+.footer-third{
+    margin-left: 42px;
+}
+.footer-third div i{
+    margin: 0 8px;
+    background-color: #059e65;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+.copy{
+    font-size: 15px;
+}
